@@ -69,8 +69,8 @@ You should also be able to run `dnx` and see the help text of the `dnx` command.
 3. Run ```dnu restore``` to restore the packages required by that sample.
 4. You should see a bunch of output as all the dependencies of the app are downloaded from MyGet.
 5. Run the sample using the appropriate DNX command:
-    - For the console app run  `dnx run`.
-    - For the web apps run `dnx kestrel`.
+    - For the console app run  `dnx run` or  `dnx ConsoleApp` .
+    - For the web apps run `dnx web`.
 6. You should see the output of the console app or a message that says the site is now started.
 7. You can navigate to the web apps in a browser by navigating to `http://localhost:5004`
 
